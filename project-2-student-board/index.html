@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Student Board</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Student Board</h1>
+            <p>Student performance overview</p>
+        </header>
+
+        <section class="summary">
+            <h2>Class Summary</h2>
+            <p>Total Students: <span id="student-count">0</span></p>
+            <p>Average Score: <span id="average-score">0</span></p>
+
+            <h3>Top Students</h3>
+            <ul id="top-students"></ul>
+        </section>
+
+        <section>
+            <h2>All Students</h2>
+            <div id="student-board" class="student-grid"></div>
+        </section>
+    </div>
+
+    <script src="./index.js" defer></script>
+
+    
+</body>
+</html>
